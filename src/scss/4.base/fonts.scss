@@ -1,0 +1,14 @@
+/*  ==========================================================================
+    Fonts
+    ========================================================================== */
+
+    /*  ==========================================================================
+    Urwdin
+    ========================================================================== */
+    @include font-face($font-family, src/fonts/urwdin/urwdin-thin, 100, null, otf);
+    @include font-face($font-family, src/fonts/urwdin/urwdin-light, 300, null, otf);
+    @include font-face($font-family, src/fonts/urwdin/urwdin-medium, 400, null, otf);
+    @include font-face($font-family, src/fonts/urwdin/urwdin, 500, null, otf);
+    @include font-face($font-family, src/fonts/urwdin/urwdin-bold, 600, null, otf);
+    @include font-face($font-family, src/fonts/urwdin/urwdin-black, 700, null, otf);
+    @include font-face($font-family, src/fonts/urwdin/urwdin-demi, 900, null, otf);

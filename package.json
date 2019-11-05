@@ -1,51 +1,53 @@
 {
-  "name": "mora-ar",
-  "version": "1.0.0",
-  "description": "Institutional Website",
-  "main": "./src/js/index.js",
-  "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Hedellen-Fernandes/mora-ar-2020.git"
-  },
-  "keywords": [
-    "Website"
-  ],
-  "author": "Hedellen Fernandes",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Hedellen-Fernandes/mora-ar-2020/issues"
-  },
-  "homepage": "https://github.com/Hedellen-Fernandes/mora-ar-2020#readme",
-  "devDependencies": {
-    "@babel/core": "^7.6.0",
-    "@babel/preset-env": "^7.6.0",
-    "@typescript-eslint/eslint-plugin": "^2.2.0",
-    "@typescript-eslint/parser": "^2.2.0",
-    "babel-eslint": "^10.0.3",
-    "babel-loader": "^8.0.6",
-    "css-loader": "^3.2.0",
-    "eslint": "^6.5.1",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-loader": "^3.0.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "^10.0.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "file-loader": "^4.2.0",
-    "mini-css-extract-plugin": "^0.8.0",
-    "postcss-loader": "^3.0.0",
-    "sass": "^1.22.12",
-    "sass-loader": "^8.0.0",
-    "webpack": "^4.40.2",
-    "webpack-cli": "^3.3.8",
-    "webpack-dev-server": "^3.8.0"
-  },
-  "dependencies": {
-    "bootstrap": "^4.3.1"
-  }
+    "name": "mora-ar",
+    "version": "1.0.0",
+    "description": "Institutional Website",
+    "main": "./src/js/index.js",
+    "scripts": {
+        "build": "webpack --config webpack.prod.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack-dev-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Hedellen-Fernandes/mora-ar-2020.git"
+    },
+    "keywords": [
+        "Website"
+    ],
+    "author": "Hedellen Fernandes",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Hedellen-Fernandes/mora-ar-2020/issues"
+    },
+    "homepage": "https://github.com/Hedellen-Fernandes/mora-ar-2020#readme",
+    "devDependencies": {
+        "@babel/core": "^7.6.0",
+        "@babel/preset-env": "^7.6.0",
+        "@typescript-eslint/eslint-plugin": "^2.2.0",
+        "@typescript-eslint/parser": "^2.2.0",
+        "babel-eslint": "^10.0.3",
+        "babel-loader": "^8.0.6",
+        "css-loader": "^3.2.0",
+        "eslint": "^6.5.1",
+        "eslint-config-standard": "^14.1.0",
+        "eslint-loader": "^3.0.0",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-node": "^10.0.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.1",
+        "file-loader": "^4.2.0",
+        "imagemin-webpack-plugin": "^2.4.2",
+        "mini-css-extract-plugin": "^0.8.0",
+        "postcss-loader": "^3.0.0",
+        "sass": "^1.22.12",
+        "sass-loader": "^8.0.0",
+        "webpack": "^4.40.2",
+        "webpack-cli": "^3.3.8",
+        "webpack-dev-server": "^3.8.0",
+        "webpack-merge": "^4.2.2"
+    },
+    "dependencies": {
+        "bootstrap": "^4.3.1"
+    }
 }

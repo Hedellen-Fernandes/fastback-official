@@ -1,0 +1,65 @@
+/*  ==========================================================================
+    Icons
+    ========================================================================== */
+
+    /*
+     * CSS for all devices
+     */
+
+     @media only screen {
+        .icon {
+            display: inline-block;
+
+            &.whatsapp {
+                width: 17px;
+                height: 17px;
+
+                margin-left: 10px;
+
+                background: url(./src/img/icones/whatsapp_preto.svg) center center no-repeat;
+                background-size: cover;
+
+                @include transform(translateY(2px));
+
+                &.white {
+                    background: url(./src/img/icones/whatsapp_branco.svg) center center no-repeat;
+                    background-size: cover;
+                }
+            }
+
+            &.arrow-down {
+                width: 10px;
+                height: 10px;
+
+                background: url(./src/img/icones/seta_azul.svg) center center no-repeat;
+                background-size: 100%;
+            }
+
+            &.arrow-right {
+                width: 10px;
+                height: 10px;
+
+                background: url(./src/img/icones/seta_branca.svg) center center no-repeat;
+                background-size: 100%;
+
+                @include transform(rotate(-90deg));
+            }
+        }
+    }
+
+
+    /*
+     * CSS for devices with resolution up to a maximum of breakpoint
+     */
+
+    @media only screen and (max-width: $breakpoint) {
+
+    }
+
+    /*
+     * CSS for devices with resolution up to the minimum breakpoint
+     */
+
+    @media only screen and (min-width: $breakpoint+1) {
+
+    }

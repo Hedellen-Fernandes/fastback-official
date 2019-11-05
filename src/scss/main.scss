@@ -1,2 +1,42 @@
-@import '~bootstrap/scss/bootstrap-reboot';
-@import '~bootstrap/scss/bootstrap-grid';
+// /* Dependencies
+//     ========================================================================== */
+@import '~bootstrap/scss/bootstrap';
+
+// /* Settings
+//     ========================================================================== */
+    @import "1.settings/variables";
+
+// /* Tools
+//     ========================================================================== */
+    @import "2.tools/mixins";
+
+// /* Generic
+//     ========================================================================== */
+@import "3.generic/reset";
+
+// /* Base
+//     ========================================================================== */
+    @import "4.base/fonts";
+    @import "4.base/icons";
+    @import "4.base/typography";
+    @import "4.base/buttons";
+
+// /* Objects
+//     ========================================================================== */
+
+// /* Plugins
+//     ========================================================================== */
+
+// /* Componentes
+//     ========================================================================== */
+    @import "7.components/print";
+    @import "7.components/nav";
+
+// /* Templates
+//     ========================================================================== */
+    @import "9.templates/layout";
+    @import "9.templates/inicio";
+    @import "9.templates/diferenciais";
+    @import "9.templates/produtos";
+    @import "9.templates/sobre";
+    @import "9.templates/contato";

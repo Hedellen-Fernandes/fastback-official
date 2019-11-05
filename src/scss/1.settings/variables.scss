@@ -1,0 +1,99 @@
+/*  ==========================================================================
+Variables
+========================================================================== */
+
+	/*  Breakpoints
+	========================================================================== */
+		$breakpoint : 768px;/* Breakpoint for small devices (Phones and Tablets)*/
+		$breakpoint-medium : 992px;/* Breakpoint for medium devices (Desktops)*/
+		$breakpoint-large : 1200px;/* Breakpoint for large devices (Desktops)*/
+
+	/*  ==========================================================================
+	Fonts
+	========================================================================== */
+		$font-family: "urwdin";
+
+		$font-family-btn: "Times New Roman";
+
+	 /*  ==========================================================================
+        Colors
+        ========================================================================== */
+        /* Brand */
+        $color-primary:     #04202E;
+        $color-secondary:   #5CB85C;
+        $color-tertiary:    #D9534F;
+
+        /* Default */
+        $color-white:         #fff;
+        $color-gray-lightest: #EEE;
+        $color-gray-light:    #f3f3f3;
+        $color-gray:          #707070;
+        $color-gray-dark:     #666;
+        $color-gray-darkest:  #04202E;
+        $color-black:         #222;
+        $color-default:       $color-gray;
+
+        /* Alert */
+        $color-info:          #457eaf;
+        $color-info-light:    #cfe6f7;
+        $color-warning:       #f79303;
+        $color-warning-light: #fff4c6;
+        $color-success:       #24a78c;
+        $color-success-light: #c6eed7;
+        $color-danger:        #e53212;
+        $color-danger-light:  #f4ceca;
+
+    /*  Forms
+        ========================================================================== */
+
+        /*  Inputs
+            ========================================================================== */
+            $color-border-input: $color-gray-light;
+            $color-input: $color-gray-darkest;
+
+            /*  Placeholder
+                ========================================================================== */
+                $placeholder-font-size: 14px;
+                $color-placeholder: $color-gray;
+
+            /*  Required tip
+                ========================================================================== */
+                $color-required-tip: $color-gray-dark;
+                $required-tip-font-size: 14px;
+
+            /*  Required field
+                ========================================================================== */
+                $color-required: $color-gray-darkest;
+                $required-font-size: 14px;
+
+    /*  ==========================================================================
+        Buttons
+        ========================================================================== */
+        $btn-font-size: 14px;
+
+        /*  Colors
+            ========================================================================== */
+
+            /*  Default
+                ========================================================================== */
+                $btn-bg: $color-default;
+                $btn-color: #666;
+                $btn-hover-bg: darken($btn-bg, 5%);
+
+            /*  Primary
+                ========================================================================== */
+                $btn-primary-bg: $color-primary;
+                $btn-primary-color: #fff;
+                $btn-primary-hover-bg: darken($btn-primary-bg, 5%);
+
+            /*  Success
+                ========================================================================== */
+                $btn-success-bg: $color-success;
+                $btn-success-color: #fff;
+                $btn-success-hover-bg: darken($btn-success-bg, 5%);
+
+            /*  Danger
+                ========================================================================== */
+                $btn-danger-bg: $color-danger;
+                $btn-danger-color: #fff;
+                $btn-danger-hover-bg: darken($btn-danger-bg, 5%);
