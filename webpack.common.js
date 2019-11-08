@@ -3,7 +3,7 @@ const path = require('path')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
-  entry: './src/js/index.js',
+  entry: './dev/js/index.js',
 
   output: {
     path: path.resolve(__dirname, 'dist'),
@@ -31,7 +31,7 @@ module.exports = {
     {
       test: /\.(sa|sc|c)ss$/,
       use: [{
-        loader: 'css-loader',
+        loader: 'css-loader'
       },
       {
         loader: 'postcss-loader'
