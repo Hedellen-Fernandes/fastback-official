@@ -6,28 +6,8 @@
      * CSS for all devices
      */
 
-     @media only screen {
-        .btn {
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
+    @media only screen {
 
-            &.btn-link {
-                padding: 0;
-
-                &.default {
-                    color: $color-white;
-                }
-
-                &.primary {
-                    color: $color-primary;
-                }
-            }
-
-            font-size: 1.25rem;
-            font-family: $font-family-btn;
-            font-style: italic;
-            letter-spacing: -1px;
-        }
     }
 
 
